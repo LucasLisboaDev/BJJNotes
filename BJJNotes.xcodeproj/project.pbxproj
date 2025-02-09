@@ -8,17 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		EFA5E4462D4C161A001C836C /* BJJNotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA5E4452D4C161A001C836C /* BJJNotesApp.swift */; };
-		EFA5E4482D4C161A001C836C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA5E4472D4C161A001C836C /* ContentView.swift */; };
+		EFA5E4482D4C161A001C836C /* MainUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA5E4472D4C161A001C836C /* MainUserView.swift */; };
 		EFA5E44A2D4C161D001C836C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA5E4492D4C161D001C836C /* Assets.xcassets */; };
 		EFA5E44D2D4C161D001C836C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA5E44C2D4C161D001C836C /* Preview Assets.xcassets */; };
+		EFA5E4542D4C16C7001C836C /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA5E4532D4C16C7001C836C /* Student.swift */; };
+		EFA5E45B2D5539D0001C836C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA5E45A2D5539D0001C836C /* LoginView.swift */; };
+		EFA5E45D2D553EC8001C836C /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA5E45C2D553EC8001C836C /* HeaderView.swift */; };
+		EFA5E45F2D5544E1001C836C /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA5E45E2D5544E1001C836C /* RegisterView.swift */; };
+		EFA5E4612D569DD0001C836C /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA5E4602D569DD0001C836C /* ButtonView.swift */; };
+		EFA5E4632D591BAF001C836C /* LoginViewViewModel .swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA5E4622D591BAF001C836C /* LoginViewViewModel .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EFA5E4422D4C161A001C836C /* BJJNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BJJNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFA5E4452D4C161A001C836C /* BJJNotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BJJNotesApp.swift; sourceTree = "<group>"; };
-		EFA5E4472D4C161A001C836C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EFA5E4472D4C161A001C836C /* MainUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainUserView.swift; sourceTree = "<group>"; };
 		EFA5E4492D4C161D001C836C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFA5E44C2D4C161D001C836C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EFA5E4532D4C16C7001C836C /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		EFA5E45A2D5539D0001C836C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		EFA5E45C2D553EC8001C836C /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		EFA5E45E2D5544E1001C836C /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		EFA5E4602D569DD0001C836C /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		EFA5E4622D591BAF001C836C /* LoginViewViewModel .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginViewViewModel .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				EFA5E4452D4C161A001C836C /* BJJNotesApp.swift */,
-				EFA5E4472D4C161A001C836C /* ContentView.swift */,
+				EFA5E4572D5537E6001C836C /* Model  */,
+				EFA5E4582D5537EC001C836C /* View */,
+				EFA5E4592D5537FD001C836C /* ViewModel */,
 				EFA5E4492D4C161D001C836C /* Assets.xcassets */,
 				EFA5E44B2D4C161D001C836C /* Preview Content */,
 			);
@@ -65,6 +79,34 @@
 				EFA5E44C2D4C161D001C836C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EFA5E4572D5537E6001C836C /* Model  */ = {
+			isa = PBXGroup;
+			children = (
+				EFA5E4532D4C16C7001C836C /* Student.swift */,
+			);
+			path = "Model ";
+			sourceTree = "<group>";
+		};
+		EFA5E4582D5537EC001C836C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EFA5E4472D4C161A001C836C /* MainUserView.swift */,
+				EFA5E45A2D5539D0001C836C /* LoginView.swift */,
+				EFA5E45C2D553EC8001C836C /* HeaderView.swift */,
+				EFA5E45E2D5544E1001C836C /* RegisterView.swift */,
+				EFA5E4602D569DD0001C836C /* ButtonView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EFA5E4592D5537FD001C836C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EFA5E4622D591BAF001C836C /* LoginViewViewModel .swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +179,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFA5E4482D4C161A001C836C /* ContentView.swift in Sources */,
+				EFA5E45D2D553EC8001C836C /* HeaderView.swift in Sources */,
+				EFA5E4482D4C161A001C836C /* MainUserView.swift in Sources */,
+				EFA5E4542D4C16C7001C836C /* Student.swift in Sources */,
+				EFA5E45F2D5544E1001C836C /* RegisterView.swift in Sources */,
+				EFA5E45B2D5539D0001C836C /* LoginView.swift in Sources */,
+				EFA5E4632D591BAF001C836C /* LoginViewViewModel .swift in Sources */,
 				EFA5E4462D4C161A001C836C /* BJJNotesApp.swift in Sources */,
+				EFA5E4612D569DD0001C836C /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

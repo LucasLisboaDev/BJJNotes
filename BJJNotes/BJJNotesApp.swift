@@ -11,7 +11,7 @@ import SwiftUI
 struct BJJNotesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainUserView()
         }
     }
 }
